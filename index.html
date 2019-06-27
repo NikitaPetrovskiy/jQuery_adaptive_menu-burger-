@@ -8,7 +8,7 @@
 <body>
 <header>
     <section class="bar">
-    <nav class="desktop">
+    <nav id="desktop">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -17,15 +17,15 @@
         </ul>
     </nav>
     </section>
-    <div class="burg">
+    <div id="burg">
         <a href="#">
-            <spar class="bar" id="top"></spar>
-            <spar class="bar" id="middle"></spar>
-            <spar class="bar" id="bottom"></spar>
+            <span id="top"></span>
+            <span id="middle"></span>
+            <span id="bottom"></span>
         </a>
     </div>
     <section class="mobile-tab">
-        <nav class="mobile">
+        <nav id="mobile">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -36,7 +36,9 @@
     </section>
 </header>
 <main>
-    <section id="content"></section>
+    <section id="content">
+        <h3>Контент</h3>
+    </section>
 </main>
 <script src="libs/jquery/jquery-3.4.1.min.js"></script>
 <script src="js/main.js"></script>
